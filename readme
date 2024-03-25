@@ -1,0 +1,19 @@
+# 1. 가상환경 설치.
+
+pip install venv.
+
+# 2. 가상환경 실행.
+
+source venv/bin/activate
+
+# 3. pip 업데이트 (Requires the latest pip)
+
+pip install --upgrade pip
+
+# 4. Tensorflow install (Current stable release for CPU and GPU)
+
+pip install tensorflow
+
+# 5. Tensorflow preview build Install (Or try the preview build (unstable))
+
+pip install tf-nightly
