@@ -200,3 +200,5 @@ def plot_value_array(i, predictions_array, true_label):
 
 
   np.argmax(predictions_single[0]) #? 단일 이미지에 대한 예측 결과에서 가장 높은 확률을 가지는 클래스의 인덱스를 찾는다.
+
+  #! 해당 러닝 중 중간 이미지와 결과값이 출력이 되지 않는 문제가 있다. 해당 문제에 대해 해결해야 한다.
